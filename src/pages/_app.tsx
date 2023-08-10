@@ -9,8 +9,8 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import { Table } from "../sections/components/tables/table";
 import { Form } from "../sections/components/forms/form";
 import { useState } from "react";
-import User from 'src/types/user';
-import { addNewUser, deleteNewUser, editNewUser } from 'src/api/users';
+import User from '../types/user';
+import { addNewUser, deleteNewUser, editNewUser } from '../api/users';
 import {useMediaQuery} from "@mui/material";
 
 const clientSideEmotionCache = createEmotionCache();

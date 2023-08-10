@@ -1,10 +1,4 @@
-interface User {
-    id: string;
-    userRole: string,
-    name: string,
-    email: string,
-    description: string
-}
+import User from '../types/user'
 
 export const addNewUser = async (userData: User) => {
     return await fetch('url', {
