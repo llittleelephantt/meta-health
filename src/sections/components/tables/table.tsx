@@ -17,8 +17,8 @@ import {
   Tooltip,
   Typography
 } from '@mui/material';
-import { Scrollbar } from 'src/components/scrollbar';
-import User from '../types/user';
+import { Scrollbar } from '../../../components/scrollbar';
+import User from '../../../types/user';
 
 interface PreviewerProps {
     deleteItem: any,
