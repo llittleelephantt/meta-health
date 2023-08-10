@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import { CacheProvider } from '@emotion/react';
-import { createEmotionCache } from 'src/utils/create-emotion-cache';
+import { createEmotionCache } from '../utils/create-emotion-cache';
 import 'react-quill/dist/quill.snow.css';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import 'simplebar-react/dist/simplebar.min.css';
